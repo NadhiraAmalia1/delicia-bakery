@@ -16,14 +16,10 @@
 
 
 
-/* nav a,
-header {
-    color: #FEFEFE !important;
-} */
+
+/***** navbar *****/
 
 header .navbar .container {
-  /* margin-bottom: -10% !important; */
-  /* padding-top: -5%; */
   margin-top: -0.3%;
   margin-bottom: -0.7%;
 }
@@ -85,7 +81,7 @@ nav a.scrolled {
 
 
 
-
+/***** banner */
 
 .banner {
   position: relative;
@@ -265,11 +261,7 @@ box-shadow: inset 300px 0 0 0 #c59b60;
 }
 
 
-/* about us */
-
-/* #section-counter .container {
-padding-bottom: -600px !important;
-} */
+/***** about us *****/
 
 .deli-wrap-about {
 background-position: bottom center !important;
@@ -413,6 +405,8 @@ font-size: 18px;
 color: white;
 }
 
+
+/***** Categories *****/
 
 /* videooooooooo */
 .most-liked {
@@ -609,7 +603,7 @@ transform: scaleX(1);
 
 
 
-/* menuuuuu */
+/***** menuuuuu *****/
 
 /* .ftco-section {
   padding: 7em 0;
@@ -769,7 +763,7 @@ transition: 4s;
 
 
 
-/* tes123 */
+/***** testimonials *****/
 
 .testimonial1 {
   background: url('../assets/img/cake.jpg') center center fixed;
@@ -977,7 +971,7 @@ overflow: hidden;
 }
 
 
-/* contacttt */
+/***** contacttt *****/
 
 .main-contact-section {
   background: url(../assets/img/091\ Eternal\ Constance.png);
