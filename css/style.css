@@ -224,8 +224,8 @@ box-shadow: inset 300px 0 0 0 #c59b60;
 
 .swiper-container {
   width: 100% !important;
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 
 .swiper-slide {
@@ -235,6 +235,8 @@ box-shadow: inset 300px 0 0 0 #c59b60;
   height: 380px !important;
   display: flex !important;
   justify-content: center !important;
+  box-shadow: none !important;
+  background: transparent !important;
 }
 
 .content .imgBox {
@@ -248,17 +250,16 @@ box-shadow: inset 300px 0 0 0 #c59b60;
 }
 
 .swiper-slide img {
-  position: absolute !important;
-  bottom: 0 !important;
-  max-height: 100% !important;
-  /* height: 500px !important; */
-  max-width: 100%;
+  width: 250px;
+  height: auto;
+  object-fit: contain;
 }
 
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right {
   background-image: none !important;
 }
+
 
 
 /***** about us *****/
@@ -1414,3 +1415,9 @@ overflow: hidden;
     color: #333333;
     text-transform: capitalize;
 } 
+
+
+
+
+
+/* === FIX SEMUA GANGGUAN SWIPER === */
